@@ -10,7 +10,21 @@ function App() {
     <div className="app">
       <main>
         <div className="search">
-          <input type="text" className="search-bar" placeholder="search" />
+          <input
+            type="text"
+            className="search-bar"
+            placeholder="Enter location"
+          />
+        </div>
+        <div className="location-box">
+          <div className="location">Islamabad</div>
+          <div className="date"></div>
+          <div className="weather-box">
+            <div className="temp">
+              <h1>41C</h1>
+            </div>
+            <div className="weather">Sunny</div>
+          </div>
         </div>
       </main>
     </div>
