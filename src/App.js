@@ -1,3 +1,5 @@
+import "./index.css";
+
 function App() {
   const api = {
     key: "e780e668eed14efab1c8655e61adb70c",

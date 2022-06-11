@@ -6,7 +6,7 @@
 }
 
 .app {
-  background-image: url('../public/img/landscape.jpg');
+  background-image: url('../public/img/main.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
@@ -14,4 +14,26 @@
 
 main {
   min-height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+  padding: 30px
+}
+
+.search {
+  width: 100%;
+  margin: 0 0 85px;
+}
+
+.search .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  border: none;
+  outline: none;
+  appearance: none;
+  background: none;
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 25px;
+
+
 }
