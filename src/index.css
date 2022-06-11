@@ -128,3 +128,29 @@ main {
   color: white;
 }
 
+.app .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 14rem auto;
+  margin-bottom: 0;
+  padding: 1rem;
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 12px;
+}
+
+
+
+
+
+.bottom p {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#text {
+  font-size: 16px;
+  font-weight: 200;
+}

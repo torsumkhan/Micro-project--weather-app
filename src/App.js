@@ -67,6 +67,22 @@ function App() {
                 {weatherData.weather[0].description}
               </div>
             </div>
+            <div>
+              <div className="bottom">
+                <div className="feels-like">
+                  <p>{Math.round(weatherData.main.feels_like)}°c</p>
+                  <p id="text">Feels Like</p>
+                </div>
+                <div className="humidity">
+                  <p>{weatherData.main.humidity}%</p>
+                  <p id="text">Humidity</p>
+                </div>
+                <div className="wind">
+                  <p>{weatherData.wind.speed}mph</p>
+                  <p id="text">Wind</p>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </main>
