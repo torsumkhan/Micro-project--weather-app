@@ -17,14 +17,11 @@ function App() {
           />
         </div>
         <div className="location-box">
-          <div className="location">Islamabad</div>
-          <div className="date"></div>
-          <div className="weather-box">
-            <div className="temp">
-              <h1>41C</h1>
-            </div>
-            <div className="weather">Sunny</div>
-          </div>
+          <div className="location">Islamabad, PK</div>
+        </div>
+        <div className="weather-box">
+          <div className="temp">41°c</div>
+          <div className="weather">Sunny</div>
         </div>
       </main>
     </div>
