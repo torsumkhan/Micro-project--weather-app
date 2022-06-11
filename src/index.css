@@ -10,13 +10,58 @@ body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-transform: capitalize;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 32px;
 }
 
 .app {
-  background-image: url('../public/img/sunny.jpg');
+  background-image: url('../public/img/main.jpg');
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
+}
+
+.app.clear {
+  background-image: url("../public/img/clear.jpg");
+}
+
+.app.clouds {
+  background-image: url("../public/img/clouds.jpg");
+}
+
+.app.snow {
+  background-image: url("../public/img/snow.jpg");
+}
+
+.app.rain{
+  background-image: url("../public/img/rain.jpg");
+}
+
+.app.fog{
+  background-image: url("../public/img/fog.jpg");
+}
+
+.app.thunderstorm{
+  background-image: url("../public/img/thunderstorm.jpg");
+}
+
+.app.drizzle{
+  background-image: url("../public/img/drizzle.jpg");
+}
+
+.app.haze{
+  background-image: url("../public/img/haze.jpg");
+}
+
+.app.haze{
+  background-image: url("../public/img/mist.jpg");
 }
 
 main {
