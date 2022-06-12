@@ -36,6 +36,12 @@ function App() {
             ? "app haze"
             : weatherData.weather[0].main === "Mist"
             ? "app mist"
+            : weatherData.weather[0].main === "Smoke"
+            ? "app smoke"
+            : weatherData.weather[0].main === "Dust"
+            ? "app dust"
+            : weatherData.weather[0].main === "Tornado"
+            ? "app tornado"
             : "app"
           : "app"
       }
